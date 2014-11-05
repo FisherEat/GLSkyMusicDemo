@@ -10,7 +10,6 @@
 		18616E361A09C23D00324A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E351A09C23D00324A36 /* main.m */; };
 		18616E391A09C23D00324A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E381A09C23D00324A36 /* AppDelegate.m */; };
 		18616E3F1A09C23D00324A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18616E3D1A09C23D00324A36 /* Main.storyboard */; };
-		18616E411A09C23D00324A36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18616E401A09C23D00324A36 /* Images.xcassets */; };
 		18616E441A09C23D00324A36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18616E421A09C23D00324A36 /* LaunchScreen.xib */; };
 		18616E501A09C23D00324A36 /* GLSkyMusicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E4F1A09C23D00324A36 /* GLSkyMusicDemoTests.m */; };
 		18616E771A09C8F200324A36 /* OTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E721A09C8F200324A36 /* OTableDataSource.m */; };
@@ -52,6 +51,7 @@
 		18616EF91A09D10E00324A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18616EF81A09D10E00324A36 /* Foundation.framework */; };
 		18616EFC1A09D18700324A36 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616EFB1A09D18700324A36 /* GViewController.m */; };
 		18616F031A09D6D200324A36 /* GLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616F021A09D6D200324A36 /* GLHomeVC.m */; };
+		18D935771A0A5DD9003388C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D935761A0A5DD9003388C7 /* Images.xcassets */; };
 		ABF1C4AB246541A9BC82F2E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA14E3067F434BA17C351F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +73,6 @@
 		18616E371A09C23D00324A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18616E381A09C23D00324A36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18616E3E1A09C23D00324A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18616E401A09C23D00324A36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18616E431A09C23D00324A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18616E491A09C23D00324A36 /* GLSkyMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLSkyMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18616E4E1A09C23D00324A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,6 +159,7 @@
 		18616EFB1A09D18700324A36 /* GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
 		18616F011A09D6D200324A36 /* GLHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHomeVC.h; sourceTree = "<group>"; };
 		18616F021A09D6D200324A36 /* GLHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHomeVC.m; sourceTree = "<group>"; };
+		18D935761A0A5DD9003388C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBEA14E3067F434BA17C351F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -214,7 +214,6 @@
 				18616E371A09C23D00324A36 /* AppDelegate.h */,
 				18616E381A09C23D00324A36 /* AppDelegate.m */,
 				18616E3D1A09C23D00324A36 /* Main.storyboard */,
-				18616E401A09C23D00324A36 /* Images.xcassets */,
 				18616E421A09C23D00324A36 /* LaunchScreen.xib */,
 				18616E331A09C23D00324A36 /* Supporting Files */,
 			);
@@ -272,6 +271,7 @@
 		18616E6F1A09C8F200324A36 /* OModel */ = {
 			isa = PBXGroup;
 			children = (
+				18D935761A0A5DD9003388C7 /* Images.xcassets */,
 				18616E701A09C8F200324A36 /* OModel.h */,
 				18616E711A09C8F200324A36 /* OTableDataSource.h */,
 				18616E721A09C8F200324A36 /* OTableDataSource.m */,
@@ -473,9 +473,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18616E3F1A09C23D00324A36 /* Main.storyboard in Resources */,
+				18D935771A0A5DD9003388C7 /* Images.xcassets in Resources */,
 				18616ED71A09CCAB00324A36 /* fangzhengkaitijianti.ttf in Resources */,
 				18616E441A09C23D00324A36 /* LaunchScreen.xib in Resources */,
-				18616E411A09C23D00324A36 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "GLHomeVC.h"
 #import "Category.h"
+#import "BlocksKit.h"
+#import "pop.h"
 
 @interface GLHomeVC ()<UIAlertViewDelegate>
 @property (strong, nonatomic) UIImageView *img1;
@@ -38,7 +40,12 @@
     [self.view addSubview:img];
     
     [self addMusicView];
-    [self addBtn];
+    [self bk_performBlock:^(id obj)
+     {
+         [self addBtn];
+     }
+               afterDelay:1.0f];
+
     
 }
 
@@ -96,6 +103,20 @@
     [self.view addSubview:self.btn2];
     [self.view addSubview:self.btn3];
     [self.view addSubview:self.btn4];
+    
+    CGFloat toValue                    = CGRectGetMidX(self.view.bounds) * 0.6;
+    CGFloat toValue1                   = CGRectGetMidX(self.view.bounds) * 1.4;
+    POPSpringAnimation *leftAnimation  = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    leftAnimation.toValue              = @(toValue);
+    leftAnimation.springBounciness     = 12.0f;
+    POPSpringAnimation *rightAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    rightAnimation.toValue             = @(toValue1);
+    rightAnimation.springBounciness    = 12.0f;
+    [self.btn1.layer pop_addAnimation:leftAnimation  forKey:@"leftAnimation"];
+    [self.btn3.layer pop_addAnimation:leftAnimation  forKey:@"leftAnimation"];
+    [self.btn2.layer pop_addAnimation:rightAnimation forKey:@"rightAnimation"];
+    [self.btn4.layer pop_addAnimation:rightAnimation forKey:@"rightAnimation"];
+
     
     [self.btn2 addTarget:self action:@selector(goNextView)  forControlEvents:UIControlEventTouchUpInside];
     [self.btn1 addTarget:self action:@selector(goWebView:)  forControlEvents:UIControlEventTouchUpInside];
