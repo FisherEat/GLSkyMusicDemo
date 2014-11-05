@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>579A2F46-8172-4B7E-9B24-E4888B12EE55</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLSkyMusicDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>579F3794B9A84138850E1D6F8531C86DEADFFF65</key>
+		<string>https://github.com/schillerGao/GLSkyMusicDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GLSkyMusicDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>579F3794B9A84138850E1D6F8531C86DEADFFF65</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/schillerGao/GLSkyMusicDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>579F3794B9A84138850E1D6F8531C86DEADFFF65</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>579F3794B9A84138850E1D6F8531C86DEADFFF65</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GLSkyMusicDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

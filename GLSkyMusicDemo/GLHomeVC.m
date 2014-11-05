@@ -103,4 +103,49 @@
     [self.btn4 addTarget:self action:@selector(goWebView:)  forControlEvents:UIControlEventTouchUpInside];
 }
 
+
+- (void)goNextView
+{
+//    [UIView animationRippleEffect:self.navigationController.view];
+//    [self.navigationController pushViewController:[[ChapterChooseVC alloc] init] animated:YES];
+}
+
+- (void)goWebView:(UIButton *)btn
+{
+//    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+//    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+//        if (status == 0 || status == -1)
+//        {
+//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                                message:@"网络连接异常"
+//                                                               delegate:self
+//                                                      cancelButtonTitle:@"知道了"
+//                                                      otherButtonTitles: nil];
+//            [alertView show];
+//            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
+//        }
+//        else
+//        {
+//            SMWebviewController *web = [[SMWebviewController alloc] init];
+//            //网络正常
+//            if (btn == self.btn1)
+//            {
+//                web.urlStr = @"http://115.29.5.2/kongzhongyinfu/contact.html";
+//            }
+//            
+//            if (btn == self.btn3)
+//            {
+//                web.urlStr = @"http://115.29.5.2/kongzhongyinfu/story.html";
+//            }
+//            
+//            if (btn == self.btn4)
+//            {
+//                web.urlStr = @"http://item.taobao.com/item.htm?spm=a230r.1.14.10.BeYEnr&id=40378984636&ns=1#detail";
+//            }
+//            [self.navigationController pushViewController:web animated:YES];
+//            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
+//        }
+//    }];
+}
+
 @end
