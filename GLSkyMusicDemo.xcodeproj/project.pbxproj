@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1837FBBA1A0C7BB5003B4C13 /* CFCoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBB91A0C7BB5003B4C13 /* CFCoverFlowView.m */; };
+		1837FBBF1A0C7F63003B4C13 /* BirthPlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */; };
+		1837FBC01A0C7F63003B4C13 /* BirthPlaceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */; };
+		1837FBC51A0C7FBB003B4C13 /* ChapterTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBC31A0C7FBA003B4C13 /* ChapterTwoVC.m */; };
+		1837FBC61A0C7FBB003B4C13 /* ChapterTwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837FBC41A0C7FBA003B4C13 /* ChapterTwoVC.xib */; };
+		1837FBCA1A0C843F003B4C13 /* C0.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBC81A0C843F003B4C13 /* C0.m */; };
+		1837FBCB1A0C843F003B4C13 /* C0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837FBC91A0C843F003B4C13 /* C0.xib */; };
+		1837FBCF1A0C845F003B4C13 /* C1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBCD1A0C845F003B4C13 /* C1.m */; };
+		1837FBD01A0C845F003B4C13 /* C1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837FBCE1A0C845F003B4C13 /* C1.xib */; };
 		18616E361A09C23D00324A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E351A09C23D00324A36 /* main.m */; };
 		18616E391A09C23D00324A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616E381A09C23D00324A36 /* AppDelegate.m */; };
 		18616E3F1A09C23D00324A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18616E3D1A09C23D00324A36 /* Main.storyboard */; };
@@ -51,6 +60,11 @@
 		18616EF91A09D10E00324A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18616EF81A09D10E00324A36 /* Foundation.framework */; };
 		18616EFC1A09D18700324A36 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616EFB1A09D18700324A36 /* GViewController.m */; };
 		18616F031A09D6D200324A36 /* GLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616F021A09D6D200324A36 /* GLHomeVC.m */; };
+		18B331B01A0B3B3300DDDDDA /* GLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B331AE1A0B3B3300DDDDDA /* GLWebViewController.m */; };
+		18B331B11A0B3B3300DDDDDA /* GLWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B331AF1A0B3B3300DDDDDA /* GLWebViewController.xib */; };
+		18B331B51A0B3B7800DDDDDA /* VWWWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B331B41A0B3B7800DDDDDA /* VWWWaterView.m */; };
+		18B331B91A0BE58B00DDDDDA /* ChapterChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B331B71A0BE58B00DDDDDA /* ChapterChoose.m */; };
+		18B331BA1A0BE58B00DDDDDA /* ChapterChoose.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B331B81A0BE58B00DDDDDA /* ChapterChoose.xib */; };
 		18D935771A0A5DD9003388C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D935761A0A5DD9003388C7 /* Images.xcassets */; };
 		ABF1C4AB246541A9BC82F2E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA14E3067F434BA17C351F /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -67,6 +81,20 @@
 
 /* Begin PBXFileReference section */
 		1502EAF270FA4C49AE0E20E4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1837FBB81A0C7BB5003B4C13 /* CFCoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowView.h; sourceTree = "<group>"; };
+		1837FBB91A0C7BB5003B4C13 /* CFCoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowView.m; sourceTree = "<group>"; };
+		1837FBBC1A0C7F63003B4C13 /* BirthPlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthPlaceVC.h; sourceTree = "<group>"; };
+		1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthPlaceVC.m; sourceTree = "<group>"; };
+		1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirthPlaceVC.xib; sourceTree = "<group>"; };
+		1837FBC21A0C7FBA003B4C13 /* ChapterTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterTwoVC.h; sourceTree = "<group>"; };
+		1837FBC31A0C7FBA003B4C13 /* ChapterTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterTwoVC.m; sourceTree = "<group>"; };
+		1837FBC41A0C7FBA003B4C13 /* ChapterTwoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterTwoVC.xib; sourceTree = "<group>"; };
+		1837FBC71A0C843F003B4C13 /* C0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0.h; sourceTree = "<group>"; };
+		1837FBC81A0C843F003B4C13 /* C0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0.m; sourceTree = "<group>"; };
+		1837FBC91A0C843F003B4C13 /* C0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C0.xib; sourceTree = "<group>"; };
+		1837FBCC1A0C845F003B4C13 /* C1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1.h; sourceTree = "<group>"; };
+		1837FBCD1A0C845F003B4C13 /* C1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1.m; sourceTree = "<group>"; };
+		1837FBCE1A0C845F003B4C13 /* C1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C1.xib; sourceTree = "<group>"; };
 		18616E301A09C23D00324A36 /* GLSkyMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLSkyMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18616E341A09C23D00324A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18616E351A09C23D00324A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -159,6 +187,14 @@
 		18616EFB1A09D18700324A36 /* GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
 		18616F011A09D6D200324A36 /* GLHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHomeVC.h; sourceTree = "<group>"; };
 		18616F021A09D6D200324A36 /* GLHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHomeVC.m; sourceTree = "<group>"; };
+		18B331AD1A0B3B3300DDDDDA /* GLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWebViewController.h; sourceTree = "<group>"; };
+		18B331AE1A0B3B3300DDDDDA /* GLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWebViewController.m; sourceTree = "<group>"; };
+		18B331AF1A0B3B3300DDDDDA /* GLWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWebViewController.xib; sourceTree = "<group>"; };
+		18B331B31A0B3B7800DDDDDA /* VWWWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWWaterView.h; sourceTree = "<group>"; };
+		18B331B41A0B3B7800DDDDDA /* VWWWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWWaterView.m; sourceTree = "<group>"; };
+		18B331B61A0BE58B00DDDDDA /* ChapterChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterChoose.h; sourceTree = "<group>"; };
+		18B331B71A0BE58B00DDDDDA /* ChapterChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterChoose.m; sourceTree = "<group>"; };
+		18B331B81A0BE58B00DDDDDA /* ChapterChoose.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterChoose.xib; sourceTree = "<group>"; };
 		18D935761A0A5DD9003388C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBEA14E3067F434BA17C351F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,6 +221,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1837FBB71A0C7BB5003B4C13 /* CFCoverFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBB81A0C7BB5003B4C13 /* CFCoverFlowView.h */,
+				1837FBB91A0C7BB5003B4C13 /* CFCoverFlowView.m */,
+			);
+			name = CFCoverFlowView;
+			path = ../CFCoverFlowView;
+			sourceTree = "<group>";
+		};
+		1837FBBB1A0C7F36003B4C13 /* ChapterOne */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBBC1A0C7F63003B4C13 /* BirthPlaceVC.h */,
+				1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */,
+				1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */,
+				1837FBC71A0C843F003B4C13 /* C0.h */,
+				1837FBC81A0C843F003B4C13 /* C0.m */,
+				1837FBC91A0C843F003B4C13 /* C0.xib */,
+				1837FBCC1A0C845F003B4C13 /* C1.h */,
+				1837FBCD1A0C845F003B4C13 /* C1.m */,
+				1837FBCE1A0C845F003B4C13 /* C1.xib */,
+			);
+			name = ChapterOne;
+			sourceTree = "<group>";
+		};
+		1837FBC11A0C7F92003B4C13 /* ChapterTwo */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBC21A0C7FBA003B4C13 /* ChapterTwoVC.h */,
+				1837FBC31A0C7FBA003B4C13 /* ChapterTwoVC.m */,
+				1837FBC41A0C7FBA003B4C13 /* ChapterTwoVC.xib */,
+			);
+			name = ChapterTwo;
+			sourceTree = "<group>";
+		};
 		18616E271A09C23D00324A36 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +280,8 @@
 		18616E321A09C23D00324A36 /* GLSkyMusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1837FBC11A0C7F92003B4C13 /* ChapterTwo */,
+				1837FBBB1A0C7F36003B4C13 /* ChapterOne */,
 				18616EFD1A09D62000324A36 /* Home */,
 				18616E971A09CCAB00324A36 /* Lib */,
 				18616E5E1A09C30800324A36 /* Core */,
@@ -312,6 +386,7 @@
 		18616E971A09CCAB00324A36 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				1837FBB71A0C7BB5003B4C13 /* CFCoverFlowView */,
 				18616E9D1A09CCAB00324A36 /* Category */,
 			);
 			path = Lib;
@@ -373,10 +448,42 @@
 		18616EFD1A09D62000324A36 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				18B331AC1A0B3AAB00DDDDDA /* ChaterChoose */,
+				18B331AB1A0B3AA000DDDDDA /* VC */,
 				18616F011A09D6D200324A36 /* GLHomeVC.h */,
 				18616F021A09D6D200324A36 /* GLHomeVC.m */,
+				18B331AD1A0B3B3300DDDDDA /* GLWebViewController.h */,
+				18B331AE1A0B3B3300DDDDDA /* GLWebViewController.m */,
+				18B331AF1A0B3B3300DDDDDA /* GLWebViewController.xib */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		18B331AB1A0B3AA000DDDDDA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18B331B21A0B3B7800DDDDDA /* VWWWaterView */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		18B331AC1A0B3AAB00DDDDDA /* ChaterChoose */ = {
+			isa = PBXGroup;
+			children = (
+				18B331B61A0BE58B00DDDDDA /* ChapterChoose.h */,
+				18B331B71A0BE58B00DDDDDA /* ChapterChoose.m */,
+				18B331B81A0BE58B00DDDDDA /* ChapterChoose.xib */,
+			);
+			name = ChaterChoose;
+			sourceTree = "<group>";
+		};
+		18B331B21A0B3B7800DDDDDA /* VWWWaterView */ = {
+			isa = PBXGroup;
+			children = (
+				18B331B31A0B3B7800DDDDDA /* VWWWaterView.h */,
+				18B331B41A0B3B7800DDDDDA /* VWWWaterView.m */,
+			);
+			path = VWWWaterView;
 			sourceTree = "<group>";
 		};
 		AF152224B0474598B7D4D31D /* Frameworks */ = {
@@ -474,7 +581,13 @@
 			files = (
 				18616E3F1A09C23D00324A36 /* Main.storyboard in Resources */,
 				18D935771A0A5DD9003388C7 /* Images.xcassets in Resources */,
+				18B331BA1A0BE58B00DDDDDA /* ChapterChoose.xib in Resources */,
+				1837FBCB1A0C843F003B4C13 /* C0.xib in Resources */,
+				1837FBC61A0C7FBB003B4C13 /* ChapterTwoVC.xib in Resources */,
+				1837FBD01A0C845F003B4C13 /* C1.xib in Resources */,
 				18616ED71A09CCAB00324A36 /* fangzhengkaitijianti.ttf in Resources */,
+				18B331B11A0B3B3300DDDDDA /* GLWebViewController.xib in Resources */,
+				1837FBC01A0C7F63003B4C13 /* BirthPlaceVC.xib in Resources */,
 				18616E441A09C23D00324A36 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,8 +641,11 @@
 			files = (
 				18616EE61A09CCAB00324A36 /* UIImage+ImageEffects.m in Sources */,
 				18616E941A09C90500324A36 /* OTextField.m in Sources */,
+				18B331B91A0BE58B00DDDDDA /* ChapterChoose.m in Sources */,
 				18616EE31A09CCAB00324A36 /* UIDevice+DeviceInfo.m in Sources */,
+				1837FBBF1A0C7F63003B4C13 /* BirthPlaceVC.m in Sources */,
 				18616EE11A09CCAB00324A36 /* UIButton+Addition.m in Sources */,
+				1837FBCF1A0C845F003B4C13 /* C1.m in Sources */,
 				18616EE01A09CCAB00324A36 /* UIAlertView+Addition.m in Sources */,
 				18616E391A09C23D00324A36 /* AppDelegate.m in Sources */,
 				18616F031A09D6D200324A36 /* GLHomeVC.m in Sources */,
@@ -546,18 +662,23 @@
 				18616E791A09C8F200324A36 /* OURLRequest.m in Sources */,
 				18616EE41A09CCAB00324A36 /* UIDevice+IdentifierAddition.m in Sources */,
 				18616EE21A09CCAB00324A36 /* UIColor+Addition.m in Sources */,
+				18B331B01A0B3B3300DDDDDA /* GLWebViewController.m in Sources */,
 				18616EDD1A09CCAB00324A36 /* NSString+FilterEmoji.m in Sources */,
+				18B331B51A0B3B7800DDDDDA /* VWWWaterView.m in Sources */,
 				18616EF31A09CF0E00324A36 /* GTableDelegate.m in Sources */,
 				18616EE81A09CCAB00324A36 /* UISearchBar+Subviews.m in Sources */,
+				1837FBBA1A0C7BB5003B4C13 /* CFCoverFlowView.m in Sources */,
 				18616EFC1A09D18700324A36 /* GViewController.m in Sources */,
 				18616E921A09C90500324A36 /* OLoadingView.m in Sources */,
 				18616E8E1A09C90500324A36 /* OBarButtonItem.m in Sources */,
 				18616E911A09C90500324A36 /* OLabel.m in Sources */,
+				1837FBC51A0C7FBB003B4C13 /* ChapterTwoVC.m in Sources */,
 				18616E901A09C90500324A36 /* OCell.m in Sources */,
 				18616E951A09C90500324A36 /* OTextView.m in Sources */,
 				18616EE51A09CCAB00324A36 /* UIImage+Addition.m in Sources */,
 				18616EED1A09CCAB00324A36 /* UIView+Layer.m in Sources */,
 				18616EDB1A09CCAB00324A36 /* NSNull+Addition.m in Sources */,
+				1837FBCA1A0C843F003B4C13 /* C0.m in Sources */,
 				18616E771A09C8F200324A36 /* OTableDataSource.m in Sources */,
 				18616EEA1A09CCAB00324A36 /* UIView+Addition.m in Sources */,
 				18616E8F1A09C90500324A36 /* OButton.m in Sources */,

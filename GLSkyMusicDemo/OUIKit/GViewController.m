@@ -10,6 +10,7 @@
 #import "GAppDefine.h"
 #import "Category.h"
 #import "OLoadingView.h"
+#import "GLHomeVC.h"
 
 @implementation GViewController
 

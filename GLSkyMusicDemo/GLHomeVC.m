@@ -7,9 +7,14 @@
 //
 
 #import "GLHomeVC.h"
+#import "VWWWaterView.h"
 #import "Category.h"
 #import "BlocksKit.h"
 #import "pop.h"
+#import "GLWebViewController.h"
+#import "AFNetworkReachabilityManager.h"
+#import "ChapterChoose.h"
+
 
 @interface GLHomeVC ()<UIAlertViewDelegate>
 @property (strong, nonatomic) UIImageView *img1;
@@ -39,7 +44,11 @@
     img.image = [UIImage imageNamed:@"bg-1"];
     [self.view addSubview:img];
     
+    VWWWaterView *waterView = [[VWWWaterView alloc]initWithFrame:rect];
+    [self.view addSubview:waterView];
+    
     [self addMusicView];
+    [self drawPlane] ;
     [self bk_performBlock:^(id obj)
      {
          [self addBtn];
@@ -49,6 +58,10 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = YES ;
+}
 
 - (void)addMusicView
 {
@@ -69,6 +82,32 @@
     [self.view addSubview:self.img3];
 }
 
+-(void)drawPlane
+{
+    self.imgView = [[UIImageView alloc]initWithFrame:CGRectMake(1024, 0, 100, 100)];
+    self.imgView.image = [UIImage imageNamed:@"plane"] ;
+    [self.view addSubview:self.imgView];
+    
+    CGPoint fromPoint = CGPointMake(1024, 400) ;
+    CGPoint toPoint   = CGPointMake(-100, 500);
+    CGPoint middlePoint = CGPointMake(800, 300);
+    CGPoint middlePoint_1   = CGPointMake(500, 200) ;
+    
+    UIBezierPath *movePath = [UIBezierPath bezierPath];
+    [movePath moveToPoint:fromPoint];
+    movePath.lineCapStyle = kCGLineCapRound ;
+    movePath.lineJoinStyle = kCGLineCapRound ;
+    [movePath addCurveToPoint:toPoint controlPoint1:middlePoint controlPoint2:middlePoint_1];
+    [[UIColor whiteColor]setStroke];
+    
+    CAKeyframeAnimation *moveAnimation = [ CAKeyframeAnimation animationWithKeyPath:@"position"];
+    moveAnimation.path = movePath.CGPath ;
+    moveAnimation.removedOnCompletion = NO ;
+    moveAnimation.duration = 50 ;
+    moveAnimation.repeatCount = 100 ;
+    
+    [self.imgView.layer addAnimation:moveAnimation forKey:nil] ;
+}
 
 - (void)addBtn
 {
@@ -127,46 +166,46 @@
 
 - (void)goNextView
 {
-//    [UIView animationRippleEffect:self.navigationController.view];
-//    [self.navigationController pushViewController:[[ChapterChooseVC alloc] init] animated:YES];
+    [UIView animationRippleEffect:self.navigationController.view];
+    [self.navigationController pushViewController:[[ChapterChoose alloc] init] animated:YES];
 }
 
 - (void)goWebView:(UIButton *)btn
 {
-//    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
-//    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-//        if (status == 0 || status == -1)
-//        {
-//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示"
-//                                                                message:@"网络连接异常"
-//                                                               delegate:self
-//                                                      cancelButtonTitle:@"知道了"
-//                                                      otherButtonTitles: nil];
-//            [alertView show];
-//            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
-//        }
-//        else
-//        {
-//            SMWebviewController *web = [[SMWebviewController alloc] init];
-//            //网络正常
-//            if (btn == self.btn1)
-//            {
-//                web.urlStr = @"http://115.29.5.2/kongzhongyinfu/contact.html";
-//            }
-//            
-//            if (btn == self.btn3)
-//            {
-//                web.urlStr = @"http://115.29.5.2/kongzhongyinfu/story.html";
-//            }
-//            
-//            if (btn == self.btn4)
-//            {
-//                web.urlStr = @"http://item.taobao.com/item.htm?spm=a230r.1.14.10.BeYEnr&id=40378984636&ns=1#detail";
-//            }
-//            [self.navigationController pushViewController:web animated:YES];
-//            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
-//        }
-//    }];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        if (status == 0 || status == -1)
+        {
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                                message:@"网络连接异常"
+                                                               delegate:self
+                                                      cancelButtonTitle:@"知道了"
+                                                      otherButtonTitles: nil];
+            [alertView show];
+            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
+        }
+        else
+        {
+            GLWebViewController *web = [[GLWebViewController alloc] init];
+            //网络正常
+            if (btn == self.btn1)
+            {
+                web.urlString = @"http://115.29.5.2/kongzhongyinfu/contact.html";
+            }
+            
+            if (btn == self.btn3)
+            {
+                web.urlString = @"http://115.29.5.2/kongzhongyinfu/story.html";
+            }
+            
+            if (btn == self.btn4)
+            {
+                web.urlString = @"http://item.taobao.com/item.htm?spm=a230r.1.14.10.BeYEnr&id=40378984636&ns=1#detail";
+            }
+            [self.navigationController pushViewController:web animated:YES];
+            [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
+        }
+    }];
 }
 
 @end
