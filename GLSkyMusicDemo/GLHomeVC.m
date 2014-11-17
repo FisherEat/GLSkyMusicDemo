@@ -58,10 +58,14 @@
     
 }
 
+#pragma mark - 隐藏导航栏
+
 -(void)viewWillAppear:(BOOL)animated
 {
     self.navigationController.navigationBarHidden = YES ;
 }
+
+#pragma mark - 添加音乐五线谱视图
 
 - (void)addMusicView
 {
@@ -82,6 +86,7 @@
     [self.view addSubview:self.img3];
 }
 
+#pragma mark - 飞机动画
 -(void)drawPlane
 {
     self.imgView = [[UIImageView alloc]initWithFrame:CGRectMake(1024, 0, 100, 100)];
@@ -108,6 +113,8 @@
     
     [self.imgView.layer addAnimation:moveAnimation forKey:nil] ;
 }
+
+#pragma mark - 添加四个按钮
 
 - (void)addBtn
 {
@@ -163,7 +170,7 @@
     [self.btn4 addTarget:self action:@selector(goWebView:)  forControlEvents:UIControlEventTouchUpInside];
 }
 
-
+#pragma mark - go to next view \web view
 - (void)goNextView
 {
     [UIView animationRippleEffect:self.navigationController.view];

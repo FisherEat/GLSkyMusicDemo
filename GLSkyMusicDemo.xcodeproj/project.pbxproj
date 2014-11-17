@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1804FA901A0E1CAF00583831 /* C2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FA8E1A0E1CAF00583831 /* C2.m */; };
+		1804FA911A0E1CAF00583831 /* C2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804FA8F1A0E1CAF00583831 /* C2.xib */; };
+		1804FA951A0E1CBC00583831 /* C3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FA931A0E1CBC00583831 /* C3.m */; };
+		1804FA961A0E1CBC00583831 /* C3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804FA941A0E1CBC00583831 /* C3.xib */; };
+		1804FA9A1A0E1CC900583831 /* C4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FA981A0E1CC900583831 /* C4.m */; };
+		1804FA9B1A0E1CC900583831 /* C4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804FA991A0E1CC900583831 /* C4.xib */; };
+		1804FA9F1A0E1CDE00583831 /* C5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FA9D1A0E1CDE00583831 /* C5.m */; };
+		1804FAA01A0E1CDE00583831 /* C5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804FA9E1A0E1CDE00583831 /* C5.xib */; };
+		1813D2BC1A0F8BE5006EA149 /* BirthPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813D2BB1A0F8BE5006EA149 /* BirthPlaceView.m */; };
 		1837FBBA1A0C7BB5003B4C13 /* CFCoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBB91A0C7BB5003B4C13 /* CFCoverFlowView.m */; };
 		1837FBBF1A0C7F63003B4C13 /* BirthPlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */; };
 		1837FBC01A0C7F63003B4C13 /* BirthPlaceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */; };
@@ -81,6 +90,20 @@
 
 /* Begin PBXFileReference section */
 		1502EAF270FA4C49AE0E20E4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1804FA8D1A0E1CAF00583831 /* C2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C2.h; sourceTree = "<group>"; };
+		1804FA8E1A0E1CAF00583831 /* C2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C2.m; sourceTree = "<group>"; };
+		1804FA8F1A0E1CAF00583831 /* C2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C2.xib; sourceTree = "<group>"; };
+		1804FA921A0E1CBC00583831 /* C3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3.h; sourceTree = "<group>"; };
+		1804FA931A0E1CBC00583831 /* C3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3.m; sourceTree = "<group>"; };
+		1804FA941A0E1CBC00583831 /* C3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C3.xib; sourceTree = "<group>"; };
+		1804FA971A0E1CC900583831 /* C4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4.h; sourceTree = "<group>"; };
+		1804FA981A0E1CC900583831 /* C4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4.m; sourceTree = "<group>"; };
+		1804FA991A0E1CC900583831 /* C4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4.xib; sourceTree = "<group>"; };
+		1804FA9C1A0E1CDE00583831 /* C5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C5.h; sourceTree = "<group>"; };
+		1804FA9D1A0E1CDE00583831 /* C5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C5.m; sourceTree = "<group>"; };
+		1804FA9E1A0E1CDE00583831 /* C5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C5.xib; sourceTree = "<group>"; };
+		1813D2BA1A0F8BE5006EA149 /* BirthPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthPlaceView.h; sourceTree = "<group>"; };
+		1813D2BB1A0F8BE5006EA149 /* BirthPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthPlaceView.m; sourceTree = "<group>"; };
 		1837FBB81A0C7BB5003B4C13 /* CFCoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowView.h; sourceTree = "<group>"; };
 		1837FBB91A0C7BB5003B4C13 /* CFCoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowView.m; sourceTree = "<group>"; };
 		1837FBBC1A0C7F63003B4C13 /* BirthPlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthPlaceVC.h; sourceTree = "<group>"; };
@@ -221,6 +244,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1804FA861A0E1BC100583831 /* BirthPlace */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBBC1A0C7F63003B4C13 /* BirthPlaceVC.h */,
+				1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */,
+				1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */,
+				1813D2BA1A0F8BE5006EA149 /* BirthPlaceView.h */,
+				1813D2BB1A0F8BE5006EA149 /* BirthPlaceView.m */,
+			);
+			name = BirthPlace;
+			sourceTree = "<group>";
+		};
+		1804FA871A0E1C3500583831 /* C0 */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBC71A0C843F003B4C13 /* C0.h */,
+				1837FBC81A0C843F003B4C13 /* C0.m */,
+				1837FBC91A0C843F003B4C13 /* C0.xib */,
+			);
+			name = C0;
+			sourceTree = "<group>";
+		};
+		1804FA881A0E1C4100583831 /* C1 */ = {
+			isa = PBXGroup;
+			children = (
+				1837FBCC1A0C845F003B4C13 /* C1.h */,
+				1837FBCD1A0C845F003B4C13 /* C1.m */,
+				1837FBCE1A0C845F003B4C13 /* C1.xib */,
+			);
+			name = C1;
+			sourceTree = "<group>";
+		};
+		1804FA891A0E1C4700583831 /* C2 */ = {
+			isa = PBXGroup;
+			children = (
+				1804FA8D1A0E1CAF00583831 /* C2.h */,
+				1804FA8E1A0E1CAF00583831 /* C2.m */,
+				1804FA8F1A0E1CAF00583831 /* C2.xib */,
+			);
+			name = C2;
+			sourceTree = "<group>";
+		};
+		1804FA8A1A0E1C4C00583831 /* C3 */ = {
+			isa = PBXGroup;
+			children = (
+				1804FA921A0E1CBC00583831 /* C3.h */,
+				1804FA931A0E1CBC00583831 /* C3.m */,
+				1804FA941A0E1CBC00583831 /* C3.xib */,
+			);
+			name = C3;
+			sourceTree = "<group>";
+		};
+		1804FA8B1A0E1C5100583831 /* C4 */ = {
+			isa = PBXGroup;
+			children = (
+				1804FA971A0E1CC900583831 /* C4.h */,
+				1804FA981A0E1CC900583831 /* C4.m */,
+				1804FA991A0E1CC900583831 /* C4.xib */,
+			);
+			name = C4;
+			sourceTree = "<group>";
+		};
+		1804FA8C1A0E1C5600583831 /* C5 */ = {
+			isa = PBXGroup;
+			children = (
+				1804FA9C1A0E1CDE00583831 /* C5.h */,
+				1804FA9D1A0E1CDE00583831 /* C5.m */,
+				1804FA9E1A0E1CDE00583831 /* C5.xib */,
+			);
+			name = C5;
+			sourceTree = "<group>";
+		};
 		1837FBB71A0C7BB5003B4C13 /* CFCoverFlowView */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,15 +329,13 @@
 		1837FBBB1A0C7F36003B4C13 /* ChapterOne */ = {
 			isa = PBXGroup;
 			children = (
-				1837FBBC1A0C7F63003B4C13 /* BirthPlaceVC.h */,
-				1837FBBD1A0C7F63003B4C13 /* BirthPlaceVC.m */,
-				1837FBBE1A0C7F63003B4C13 /* BirthPlaceVC.xib */,
-				1837FBC71A0C843F003B4C13 /* C0.h */,
-				1837FBC81A0C843F003B4C13 /* C0.m */,
-				1837FBC91A0C843F003B4C13 /* C0.xib */,
-				1837FBCC1A0C845F003B4C13 /* C1.h */,
-				1837FBCD1A0C845F003B4C13 /* C1.m */,
-				1837FBCE1A0C845F003B4C13 /* C1.xib */,
+				1804FA8C1A0E1C5600583831 /* C5 */,
+				1804FA8B1A0E1C5100583831 /* C4 */,
+				1804FA8A1A0E1C4C00583831 /* C3 */,
+				1804FA891A0E1C4700583831 /* C2 */,
+				1804FA881A0E1C4100583831 /* C1 */,
+				1804FA871A0E1C3500583831 /* C0 */,
+				1804FA861A0E1BC100583831 /* BirthPlace */,
 			);
 			name = ChapterOne;
 			sourceTree = "<group>";
@@ -579,14 +672,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1804FA9B1A0E1CC900583831 /* C4.xib in Resources */,
 				18616E3F1A09C23D00324A36 /* Main.storyboard in Resources */,
 				18D935771A0A5DD9003388C7 /* Images.xcassets in Resources */,
 				18B331BA1A0BE58B00DDDDDA /* ChapterChoose.xib in Resources */,
 				1837FBCB1A0C843F003B4C13 /* C0.xib in Resources */,
 				1837FBC61A0C7FBB003B4C13 /* ChapterTwoVC.xib in Resources */,
 				1837FBD01A0C845F003B4C13 /* C1.xib in Resources */,
+				1804FAA01A0E1CDE00583831 /* C5.xib in Resources */,
 				18616ED71A09CCAB00324A36 /* fangzhengkaitijianti.ttf in Resources */,
 				18B331B11A0B3B3300DDDDDA /* GLWebViewController.xib in Resources */,
+				1804FA911A0E1CAF00583831 /* C2.xib in Resources */,
+				1804FA961A0E1CBC00583831 /* C3.xib in Resources */,
 				1837FBC01A0C7F63003B4C13 /* BirthPlaceVC.xib in Resources */,
 				18616E441A09C23D00324A36 /* LaunchScreen.xib in Resources */,
 			);
@@ -645,6 +742,7 @@
 				18616EE31A09CCAB00324A36 /* UIDevice+DeviceInfo.m in Sources */,
 				1837FBBF1A0C7F63003B4C13 /* BirthPlaceVC.m in Sources */,
 				18616EE11A09CCAB00324A36 /* UIButton+Addition.m in Sources */,
+				1804FA9A1A0E1CC900583831 /* C4.m in Sources */,
 				1837FBCF1A0C845F003B4C13 /* C1.m in Sources */,
 				18616EE01A09CCAB00324A36 /* UIAlertView+Addition.m in Sources */,
 				18616E391A09C23D00324A36 /* AppDelegate.m in Sources */,
@@ -668,15 +766,19 @@
 				18616EF31A09CF0E00324A36 /* GTableDelegate.m in Sources */,
 				18616EE81A09CCAB00324A36 /* UISearchBar+Subviews.m in Sources */,
 				1837FBBA1A0C7BB5003B4C13 /* CFCoverFlowView.m in Sources */,
+				1804FA951A0E1CBC00583831 /* C3.m in Sources */,
 				18616EFC1A09D18700324A36 /* GViewController.m in Sources */,
 				18616E921A09C90500324A36 /* OLoadingView.m in Sources */,
 				18616E8E1A09C90500324A36 /* OBarButtonItem.m in Sources */,
+				1813D2BC1A0F8BE5006EA149 /* BirthPlaceView.m in Sources */,
 				18616E911A09C90500324A36 /* OLabel.m in Sources */,
+				1804FA9F1A0E1CDE00583831 /* C5.m in Sources */,
 				1837FBC51A0C7FBB003B4C13 /* ChapterTwoVC.m in Sources */,
 				18616E901A09C90500324A36 /* OCell.m in Sources */,
 				18616E951A09C90500324A36 /* OTextView.m in Sources */,
 				18616EE51A09CCAB00324A36 /* UIImage+Addition.m in Sources */,
 				18616EED1A09CCAB00324A36 /* UIView+Layer.m in Sources */,
+				1804FA901A0E1CAF00583831 /* C2.m in Sources */,
 				18616EDB1A09CCAB00324A36 /* NSNull+Addition.m in Sources */,
 				1837FBCA1A0C843F003B4C13 /* C0.m in Sources */,
 				18616E771A09C8F200324A36 /* OTableDataSource.m in Sources */,

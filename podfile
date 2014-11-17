@@ -4,3 +4,4 @@ inhibit_all_warnings!
 pod 'pop'
 pod 'AFNetworking', '~> 2.2.3'
 pod 'BlocksKit', '~> 2.2.5'
+pod 'LazyFadeInView', '~> 0.1.4'

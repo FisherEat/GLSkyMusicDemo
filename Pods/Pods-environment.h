@@ -84,6 +84,12 @@
 #define COCOAPODS_VERSION_MINOR_BlocksKit_UIKit 2
 #define COCOAPODS_VERSION_PATCH_BlocksKit_UIKit 5
 
+// LazyFadeInView
+#define COCOAPODS_POD_AVAILABLE_LazyFadeInView
+#define COCOAPODS_VERSION_MAJOR_LazyFadeInView 0
+#define COCOAPODS_VERSION_MINOR_LazyFadeInView 1
+#define COCOAPODS_VERSION_PATCH_LazyFadeInView 4
+
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop
 #define COCOAPODS_VERSION_MAJOR_pop 1

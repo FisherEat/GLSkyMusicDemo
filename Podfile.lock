@@ -33,16 +33,19 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - LazyFadeInView (0.1.4)
   - pop (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2.3)
   - BlocksKit (~> 2.2.5)
+  - LazyFadeInView (~> 0.1.4)
   - pop
 
 SPEC CHECKSUMS:
   AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
   BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  LazyFadeInView: 79e58d4747b82a1892eeba83d751f6422c0dbb1f
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
 
 COCOAPODS: 0.33.1

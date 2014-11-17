@@ -10,4 +10,7 @@
 
 @interface C1 : GViewController
 
+@property (nonatomic,strong) UIButton *previewBtn ;
+@property (nonatomic,strong) UIButton *nextBtn ;
+
 @end

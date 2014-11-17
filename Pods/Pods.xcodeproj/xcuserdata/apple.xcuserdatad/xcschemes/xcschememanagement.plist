@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-LazyFadeInView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4AD89F10C6564754A202FC4D</key>
+		<key>1E92800E0CA54A85B0015F39</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A5E907282C342E9A7C05BA2</key>
+		<key>4376021737F643558CC51D5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6EA3FB3F3EE84536A0A05453</key>
+		<key>49501FBE3DC44CE4AC92C610</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>887B0EAF4A8B447D9B1B4227</key>
+		<key>A005A9D0504B41C5A727060F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5F69611776A4AC39CFBCBB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

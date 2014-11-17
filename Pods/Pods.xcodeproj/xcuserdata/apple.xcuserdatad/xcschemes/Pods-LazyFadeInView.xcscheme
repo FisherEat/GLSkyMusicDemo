@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5F69611776A4AC39CFBCBB3"
-               BuildableName = "libPods.a"
-               BlueprintName = "Pods"
+               BlueprintIdentifier = "1E92800E0CA54A85B0015F39"
+               BuildableName = "libPods-LazyFadeInView.a"
+               BlueprintName = "Pods-LazyFadeInView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
